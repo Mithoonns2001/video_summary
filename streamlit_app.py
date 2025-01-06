@@ -77,7 +77,7 @@ def merge_summary_with_video(video_path, summary_json, output_video_path):
         content = item['content']
 
         text_clip = (
-            TextClip(content, fontsize=max_font_size, color='white', bg_color='black', size=(video.w*5, video.h))
+            TextClip(content, fontsize=max_font_size, color='white', bg_color='black', size=(video.w, None))
             .set_position(("center", "bottom")) #.set_position(("center", "bottom"))
             .set_start(start_time)
             .set_duration(end_time-start_time)  # Display each text for 5 seconds
