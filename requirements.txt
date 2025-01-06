@@ -1,7 +1,7 @@
 streamlit==1.41.1
 google-generativeai==0.8.3
 ffmpeg-python==0.2.0
-openai-whisper==20240930
+openai-whisper
 watchdog==6.0.0
 moviepy==1.0.3
 Pillow==9.5.0
